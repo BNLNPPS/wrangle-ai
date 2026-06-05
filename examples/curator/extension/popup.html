@@ -1,0 +1,31 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  body { background:#15171c; color:#e6e6e6; font:14px/1.4 system-ui,sans-serif; width:320px; margin:0; padding:12px; }
+  h1 { color:#d8a070; font-size:15px; margin:0 0 8px; }
+  label { display:block; margin:8px 0 2px; color:#9aa; font-size:12px; }
+  input, textarea { width:100%; box-sizing:border-box; background:#1e2128; color:#e6e6e6;
+                    border:1px solid #333; border-radius:4px; padding:6px; font:13px system-ui; }
+  textarea { resize:vertical; min-height:42px; }
+  button { margin-top:10px; width:100%; background:#d8a070; color:#15171c; border:0; border-radius:4px;
+           padding:9px; font-weight:600; font-size:14px; cursor:pointer; }
+  button:disabled { opacity:.5; cursor:default; }
+  #status { margin-top:10px; font-size:13px; min-height:18px; }
+  a { color:#7db4ff; }
+  .ok { color:#8fce8f; } .err { color:#e88; }
+</style>
+<h1>Curate this Indico event</h1>
+
+<label>Your local agent</label>
+<input id="endpoint" value="http://127.0.0.1:8765" />
+
+<label>Token (from server.py startup)</label>
+<input id="token" type="password" placeholder="paste token" />
+
+<label>Interests (optional — overrides the agent's default)</label>
+<textarea id="interests" placeholder="what you care about; one or more lines"></textarea>
+
+<button id="go">Curate &rarr; my picks</button>
+<div id="status"></div>
+
+<script src="popup.js"></script>

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "wrangle-ai curator",
+  "version": "0.1.0",
+  "description": "Curate the Indico event you're viewing — protected ones included — into your own picks, via your local wrangle-ai agent.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": [
+    "https://indico.cern.ch/*",
+    "http://127.0.0.1/*",
+    "http://localhost/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Curate this Indico event"
+  }
+}

@@ -1,0 +1,19 @@
+Distributed workload management and orchestration — PanDA, JEDI, Harvester, DIRAC,
+and the broader problem of running HEP/NP workflows across the grid, HPC, and cloud.
+
+Streaming readout and real-time / online processing — streaming DAQ, online-offline
+convergence, time-frame and slice processing, the ePIC streaming computing model.
+
+AI and machine learning in computing operations — LLM agents, autonomous and
+persistent agents, foundation models, ML applied to operations, reconstruction,
+triggering, anomaly detection, and assistance for shifters and operators.
+
+Distributed data management — Rucio, data lakes, replica and namespace management,
+analysis facilities, and access over xrootd and friends.
+
+Workflow systems and provenance, production systems, metadata and databases.
+
+Simulation and fast simulation; heterogeneous computing and GPUs; sustainability and
+efficiency of computing.
+
+Electron-Ion Collider / ePIC computing, and ATLAS distributed computing.
