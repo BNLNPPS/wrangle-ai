@@ -23,7 +23,7 @@ python examples/curator/run_demo.py     # no keys, no browser — watch the whol
 ```
 
 Full guide — public agendas, the browser extension for protected ones, choosing your
-LLM: **[`examples/curator/`](examples/curator/README.md)**.
+LLM: **[`docs/curator.md`](docs/curator.md)**.
 
 ## Why it exists
 
